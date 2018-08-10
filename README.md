@@ -11,7 +11,7 @@ Check out the binder!
 
 First clone the repository into the directory of your choice, 
 
-Using mac or linux and not windows, never windows:
+Using mac or linux:
 
 ```
 git clone https://github.com/jerichooconnell/unet.git
