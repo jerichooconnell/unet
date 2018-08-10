@@ -1,0 +1,208 @@
+iv:Gr/Color/lightgold = 3 248 242 200
+iv:Gr/Color/middlegold = 3 255 255 51
+iv:Gr/Color/highgold = 3 218 165 32
+iv:Gr/Color/extremegold = 3 146 111 29
+#define transparent colour with 4 values; first 3 are RBG and last one is %transparency
+iv:Gr/Color/transparentwater = 4 21 149 222 75
+
+#b:Ge/QuitIfOverlapDetected = "False"
+
+
+
+s:Ge/Phantom/Type     = "TsCylinder"
+s:Ge/Phantom/Parent = "World"
+s:Ge/Phantom/Material = "Water"
+d:Ge/Phantom/RMin = 0.0 cm
+d:Ge/Phantom/RMax = 5. cm
+d:Ge/Phantom/HL = 3.0 cm #8 cm long
+d:Ge/Phantom/SPhi = 0. deg
+d:Ge/Phantom/DPhi = 360. deg
+d:Ge/Phantom/TransX =  0. cm
+d:Ge/Phantom/TransY = 0. cm
+d:Ge/Phantom/TransZ = 0. cm
+#d:Ge/Phantom/RotX   = Tf/rotationX/Value deg
+#d:Ge/Phantom/RotY   = Tf/rotationY/Value deg
+#d:Ge/Phantom/RotZ   = Tf/rotationZ/Value deg
+
+d:Ge/Phantom/RotX = 270. deg
+d:Ge/Phantom/RotY = 0. deg
+d:Ge/Phantom/RotZ = 0. deg
+s:Ge/Phantom/Color = "transparentwater"
+
+s:Ge/VialGroup/Type="Group"
+s:Ge/VialGroup/Parent = "World"
+d:Ge/VialGroup/TransX=0. m
+d:Ge/VialGroup/TransY=0. m
+d:Ge/VialGroup/TransZ=0. m
+#d:Ge/VialGroup/RotX   = Tf/rotationX/Value deg
+#d:Ge/VialGroup/RotY   = Tf/rotationY/Value deg
+#d:Ge/VialGroup/RotZ   = Tf/rotationZ/Value deg
+
+d:Ge/VialGroup/RotX=0. deg
+d:Ge/VialGroup/RotY=0. deg
+#d:Ge/VialGroup/RotZ=120. deg # positive angle means it rotates clockwise
+
+s:Ge/VialA/Type     = "TsCylinder"
+s:Ge/VialA/Parent = "VialGroup"
+b:Ge/VialA/IsParallel = "True"
+s:Ge/VialA/ParallelWorldName = "Vials"
+s:Ge/VialA/Material = "cartilage"
+d:Ge/VialA/RMin = 0.0 cm
+d:Ge/VialA/RMax = 1. cm
+d:Ge/VialA/HL = 1.95 cm #3 mm long
+d:Ge/VialA/SPhi = 0. deg
+d:Ge/VialA/DPhi = 360. deg
+d:Ge/VialA/TransX = 3. cm
+d:Ge/VialA/TransY = 0. cm
+d:Ge/VialA/TransZ = 0. cm
+d:Ge/VialA/RotX = 270. deg
+d:Ge/VialA/RotY = 0. deg
+d:Ge/VialA/RotZ = 0. deg
+s:Ge/VialA/Color = "lightgold"
+
+s:Ge/VialB/Type     = "TsCylinder"
+s:Ge/VialB/Parent = "VialGroup"
+b:Ge/VialB/IsParallel = "True"
+s:Ge/VialB/ParallelWorldName = "Vials"
+s:Ge/VialB/Material = "cartilage"
+d:Ge/VialB/RMin = 0.0 cm
+d:Ge/VialB/RMax = 1. cm
+d:Ge/VialB/HL = 0.95 cm 
+d:Ge/VialB/SPhi = 0. deg
+d:Ge/VialB/DPhi = 360. deg
+d:Ge/VialB/TransX = -3. cm
+d:Ge/VialB/TransY = 0. cm
+d:Ge/VialB/TransZ = 0. cm
+d:Ge/VialB/RotX = 270. deg
+d:Ge/VialB/RotY = 0. deg
+d:Ge/VialB/RotZ = 0. deg
+s:Ge/VialB/Color = "middlegold"
+
+s:Ge/VialC/Type     = "TsCylinder"
+s:Ge/VialC/Parent = "VialGroup"
+b:Ge/VialC/IsParallel = "True"
+s:Ge/VialC/ParallelWorldName = "Vials"
+s:Ge/VialC/Material = "cartilage"
+d:Ge/VialC/RMin = 0.0 cm
+d:Ge/VialC/RMax = 1. cm
+d:Ge/VialC/HL = 1.45 cm 
+d:Ge/VialC/SPhi = 0. deg
+d:Ge/VialC/DPhi = 360. deg
+d:Ge/VialC/TransX = 0. cm
+d:Ge/VialC/TransY = 0. cm
+d:Ge/VialC/TransZ = 3. cm
+d:Ge/VialC/RotX = 270. deg
+d:Ge/VialC/RotY = 0. deg
+d:Ge/VialC/RotZ = 0. deg
+s:Ge/VialC/Color = "highgold"
+
+s:Ge/VialD/Type     = "TsCylinder"
+s:Ge/VialD/Parent = "VialGroup"
+b:Ge/VialD/IsParallel = "True"
+s:Ge/VialD/ParallelWorldName = "Vials"
+s:Ge/VialD/Material = "cartilage"
+d:Ge/VialD/RMin = 0.0 cm
+d:Ge/VialD/RMax = 1. cm
+d:Ge/VialD/HL = 0.45 cm 
+d:Ge/VialD/SPhi = 0. deg
+d:Ge/VialD/DPhi = 360. deg
+d:Ge/VialD/TransX = 0. cm
+d:Ge/VialD/TransY = 0. cm
+d:Ge/VialD/TransZ = -3. cm
+d:Ge/VialD/RotX = 270. deg
+d:Ge/VialD/RotY = 0. deg
+d:Ge/VialD/RotZ = 0. deg
+s:Ge/VialD/Color = "extremegold"
+
+s:Ge/VialI/Type     = "TsCylinder"
+s:Ge/VialI/Parent = "VialGroup"
+b:Ge/VialI/IsParallel = "True"
+s:Ge/VialI/ParallelWorldName = "Vials"
+s:Ge/VialI/Material = "cartilage"
+d:Ge/VialI/RMin = 0.0 cm
+d:Ge/VialI/RMax = 1. cm
+d:Ge/VialI/HL = 1.7 cm #3 mm long
+d:Ge/VialI/SPhi = 0. deg
+d:Ge/VialI/DPhi = 360. deg
+d:Ge/VialI/TransX = 2.1 cm
+d:Ge/VialI/TransY = 0. cm
+d:Ge/VialI/TransZ = 2.1 cm
+d:Ge/VialI/RotX = 270. deg
+d:Ge/VialI/RotY = 0. deg
+d:Ge/VialI/RotZ = 0. deg
+s:Ge/VialI/Color = "lightgold"
+
+s:Ge/VialF/Type     = "TsCylinder"
+s:Ge/VialF/Parent = "VialGroup"
+b:Ge/VialF/IsParallel = "True"
+s:Ge/VialF/ParallelWorldName = "Vials"
+s:Ge/VialF/Material = "cartilage"
+d:Ge/VialF/RMin = 0.0 cm
+d:Ge/VialF/RMax = 1. cm
+d:Ge/VialF/HL = 0.7 cm 
+d:Ge/VialF/SPhi = 0. deg
+d:Ge/VialF/DPhi = 360. deg
+d:Ge/VialF/TransX = -2.1 cm
+d:Ge/VialF/TransY = 0. cm
+d:Ge/VialF/TransZ = -2.1 cm
+d:Ge/VialF/RotX = 270. deg
+d:Ge/VialF/RotY = 0. deg
+d:Ge/VialF/RotZ = 0. deg
+s:Ge/VialF/Color = "middlegold"
+
+s:Ge/VialG/Type     = "TsCylinder"
+s:Ge/VialG/Parent = "VialGroup"
+b:Ge/VialG/IsParallel = "True"
+s:Ge/VialG/ParallelWorldName = "Vials"
+s:Ge/VialG/Material = "cartilage"
+d:Ge/VialG/RMin = 0.0 cm
+d:Ge/VialG/RMax = 1. cm
+d:Ge/VialG/HL = 1.2 cm 
+d:Ge/VialG/SPhi = 0. deg
+d:Ge/VialG/DPhi = 360. deg
+d:Ge/VialG/TransX = -2.1 cm
+d:Ge/VialG/TransY = 0. cm
+d:Ge/VialG/TransZ = 2.1 cm
+d:Ge/VialG/RotX = 270. deg
+d:Ge/VialG/RotY = 0. deg
+d:Ge/VialG/RotZ = 0. deg
+s:Ge/VialG/Color = "highgold"
+
+s:Ge/VialH/Type     = "TsCylinder"
+s:Ge/VialH/Parent = "VialGroup"
+b:Ge/VialH/IsParallel = "True"
+s:Ge/VialH/ParallelWorldName = "Vials"
+s:Ge/VialH/Material = "cartilage"
+d:Ge/VialH/RMin = 0.0 cm
+d:Ge/VialH/RMax = 1. cm
+d:Ge/VialH/HL = 0.2 cm 
+d:Ge/VialH/SPhi = 0. deg
+d:Ge/VialH/DPhi = 360. deg
+d:Ge/VialH/TransX = 2.1 cm
+d:Ge/VialH/TransY = 0. cm
+d:Ge/VialH/TransZ = -2.1 cm
+d:Ge/VialH/RotX = 270. deg
+d:Ge/VialH/RotY = 0. deg
+d:Ge/VialH/RotZ = 0. deg
+s:Ge/VialH/Color = "extremegold"
+
+
+
+s:Ge/VialB/DrawingStyle = "Solid"
+s:Ge/VialC/DrawingStyle = "Solid"
+s:Ge/VialD/DrawingStyle = "Solid"
+s:Ge/Phantom/DrawingStyle = "Solid"
+
+s:Sc/PhantomDose/Quantity = "SurfaceTrackCount"
+s:Sc/PhantomDose/Surface = "CdTeCrystal1/YPlusSurface"
+i:Sc/PhantomDose/XBins = 100
+i:Sc/PhantomDose/ZBins = 100
+i:Sc/Phantomdose/EBins = 100 # defaults to 1, that is, un-binned
+d:Sc/PhantomDose/EBinMin = .016 MeV # defaults to zero
+d:Sc/PhantomDose/EBinMax = .060 MeV # must be specified if EBins is greater than 1 
+s:Sc/PhantomDose/OutputType = "csv"
+
+sv:Ma/cartilage/Components = 8 "Hydrogen" "Carbon" "Nitrogen" "Oxygen" "Potassium" "Sodium" "Sulfur" "Chlorine"
+uv:Ma/cartilage/Fractions = 8 .096 0.099 0.022 0.744 0.022 0.005 0.009 0.003
+d:Ma/cartilage/Density = 1.1 g/cm3
+

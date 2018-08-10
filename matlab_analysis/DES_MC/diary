@@ -1,0 +1,2156 @@
+{Undefined function or variable 'inds'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 129)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',129,0)">line 129</a>)
+        [CNR, MSE] = Analysis_DES_3_1(cal(:, :,
+        cell2mat(inds(jj))), val(:, :, cell2mat(inds(jj))'),
+        cell2mat(evec(jj)), noise, layers2(ind_layers(jj),
+        jj));
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',129,0)
+close all
+Main_MC
+
+perf =
+
+    0.3510
+
+
+perf =
+
+    0.3329
+
+
+perf =
+
+    0.3214
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3525
+
+
+perf =
+
+    0.3346
+
+
+perf =
+
+    0.3229
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3544
+
+
+perf =
+
+    0.3349
+
+
+perf =
+
+    0.3232
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3530
+
+
+perf =
+
+    0.3365
+
+
+perf =
+
+    0.3243
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3550
+
+
+perf =
+
+    0.3381
+
+
+perf =
+
+    0.3247
+
+
+global_n =
+
+     0
+
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',125,1)">125 </a>for jj = 1:5
+if system_dependent('IsDebugMode')==1, dbquit; end
+close all
+Main_MC
+{Undefined function or variable 'original'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_linear', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m', 23)" style="font-weight:bold">Analysis_DES_linear</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',23,0)">line 23</a>)
+[~, noise] = createContours(original,48, 133);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 56)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',56,0)">line 56</a>)
+        [imcart_2, MSE, noise] = Analysis_DES_linear(cal,
+        val, cell2mat(evec(jj)));
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',23,0)
+Analysis_DES_linear
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_linear', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m', 23)" style="font-weight:bold">Analysis_DES_linear</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',23,0)">line 23</a>)
+[~, noise] = createContours(sum(cal,3),48, 133);
+} 
+Main_MC
+
+perf =
+
+    0.3510
+
+
+perf =
+
+    0.3329
+
+
+perf =
+
+    0.3214
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3525
+
+
+perf =
+
+    0.3346
+
+
+perf =
+
+    0.3229
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3544
+
+
+perf =
+
+    0.3349
+
+
+perf =
+
+    0.3232
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3530
+
+
+perf =
+
+    0.3365
+
+
+perf =
+
+    0.3243
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3550
+
+
+perf =
+
+    0.3381
+
+
+perf =
+
+    0.3247
+
+
+global_n =
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+
+perf =
+
+    0.3510
+
+
+perf =
+
+    0.3329
+
+
+perf =
+
+    0.3214
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3525
+
+
+perf =
+
+    0.3346
+
+
+perf =
+
+    0.3229
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3544
+
+
+perf =
+
+    0.3349
+
+
+perf =
+
+    0.3232
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrp/loopBody', '/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m', 208)" style="font-weight:bold">bootstrp/loopBody</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m',208,0)">line
+208</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('internal.stats.parallel.smartForSliceout', '/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m', 174)" style="font-weight:bold">internal.stats.parallel.smartForSliceout</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m',174,0)">line 174</a>)
+            [slice{:}] = loopbody(iter, S);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrp', '/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m', 197)" style="font-weight:bold">bootstrp</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m',197,0)">line 197</a>)
+        bootstat = internal.stats.parallel.smartForSliceout(
+        ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci>bootbca', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 255)" style="font-weight:bold">bootci>bootbca</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',255,0)">line 255</a>)
+bstat =
+bootstrp(nboot,bootfun,varargin{:},'weights',weights,'Options',bootstrpOptions);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 171)" style="font-weight:bold">bootci</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',171,0)">line 171</a>)
+        [ci,bootstat] =
+        bootbca(obsstat,nboot,fun,alpha,weights,bootstrpOptions,data{:});
+        
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('createContoursSD', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m', 63)" style="font-weight:bold">createContoursSD</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',63,0)">line 63</a>)
+    STD(pp,:) = bootci(1000,@std2,temp);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 66)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',66,0)">line 66</a>)
+        [ROI, SD] = createContoursSD(imcart_2, x2, y2);
+} 
+Main_MC
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',28,1)">28  </a>t_v(t_v ~= 0) = t_v(t_v ~= 0) - 0.1;
+if system_dependent('IsDebugMode')==1, dbcont; end
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',28,1)">28  </a>t_v(t_v ~= 0) = t_v(t_v ~= 0) - 0.1;
+if system_dependent('IsDebugMode')==1, dbcont; end
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',30,1)">30  </a>energy_names = linspace(16,120,200);
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+Conversion to double from cell is not possible.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 41)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',41,0)">line 41</a>)
+evec(1) = {[16, 120]};
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',28,1)">28  </a>t_v(t_v ~= 0) = t_v(t_v ~= 0) - 0.1;
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+perf =
+
+    0.3510
+
+
+perf =
+
+    0.3329
+
+
+perf =
+
+    0.3214
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3525
+
+
+perf =
+
+    0.3346
+
+
+perf =
+
+    0.3229
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3544
+
+
+perf =
+
+    0.3349
+
+
+perf =
+
+    0.3232
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3530
+
+
+perf =
+
+    0.3365
+
+
+perf =
+
+    0.3243
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3550
+
+
+perf =
+
+    0.3381
+
+
+perf =
+
+    0.3247
+
+
+global_n =
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+close all
+Attenuations
+[Warning: Start point not provided, choosing random start
+point.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('curvefit.attention.Warning/throw', '/home/jericho/Downloads/toolbox/curvefit/curvefit/+curvefit/+attention/Warning.m', 30)" style="font-weight:bold">curvefit.attention.Warning/throw</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/curvefit/curvefit/+curvefit/+attention/Warning.m',30,0)">line 30</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fit>iFit', '/home/jericho/Downloads/toolbox/curvefit/curvefit/fit.p', 299)" style="font-weight:bold">fit>iFit</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/curvefit/curvefit/fit.p',299,0)">line 299</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fit', '/home/jericho/Downloads/toolbox/curvefit/curvefit/fit.p', 108)" style="font-weight:bold">fit</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/curvefit/curvefit/fit.p',108,0)">line 108</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Attenuations', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m', 277)" style="font-weight:bold">Attenuations</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m',277,0)">line 277</a>)] 
+
+myfit = 
+
+     General model:
+     myfit(time) = a/time^3
+     Coefficients (with 95% confidence bounds):
+       a =   3.026e-06  (2.907e-06, 3.145e-06)
+Attenuations
+Attenuations
+Attenuations
+Attenuations
+Attenuations
+Attenuations
+Attenuations
+Attenuations
+Attenuations
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Attenuations', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m', 643)" style="font-weight:bold">Attenuations</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m',643,0)">line 643</a>)] 
+Attenuations
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Attenuations', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m', 736)" style="font-weight:bold">Attenuations</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m',736,0)">line 736</a>)] 
+Attenuations
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Attenuations', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m', 736)" style="font-weight:bold">Attenuations</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m',736,0)">line 736</a>)] 
+close all
+Attenuations
+
+C7 =
+
+   1.0e+05 *
+
+    0.0000    0.0348    0.0348
+    0.0000    0.0317    0.0317
+    0.0000    0.0289    0.0289
+    0.0000    0.0313    0.0313
+    0.0000    0.0128    0.0128
+    0.0000    0.0058    0.0058
+    0.0000    0.0047    0.0047
+    0.0000    0.0052    0.0052
+    0.0000    0.0043    0.0043
+    0.0000    0.0035    0.0035
+    0.0000    0.0037    0.0036
+    0.0000    0.0030    0.0030
+    0.0000    0.0025    0.0025
+    0.0000    0.0026    0.0026
+    0.0000    0.0022    0.0022
+    0.0000    0.0009    0.0009
+    0.0000    0.0005    0.0005
+    0.0000    0.0003    0.0003
+    0.0000    0.0001    0.0001
+    0.0000    0.0001    0.0001
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0000    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0001    0.0000    0.0000
+    0.0002    0.0000    0.0000
+    0.0002    0.0000    0.0000
+    0.0002    0.0000    0.0000
+    0.0002    0.0000    0.0000
+    0.0002    0.0000    0.0000
+    0.0003    0.0000    0.0000
+    0.0003    0.0000    0.0000
+    0.0003    0.0000    0.0000
+    0.0004    0.0000    0.0000
+    0.0005    0.0000    0.0000
+    0.0006    0.0000    0.0000
+    0.0008    0.0000    0.0000
+    0.0010    0.0000    0.0000
+    0.0015    0.0000    0.0000
+    0.0020    0.0000    0.0000
+    0.0030    0.0000    0.0000
+    0.0040    0.0000    0.0000
+    0.0050    0.0000    0.0000
+    0.0060    0.0000    0.0000
+    0.0080    0.0000    0.0000
+    0.0100    0.0000    0.0000
+    0.0150    0.0000    0.0000
+    0.0200    0.0000    0.0000
+    0.0300    0.0000    0.0000
+    0.0400    0.0000    0.0000
+    0.0500    0.0000    0.0000
+    0.0600    0.0000    0.0000
+    0.0800    0.0000    0.0000
+    0.1000    0.0000    0.0000
+    0.1500    0.0000    0.0000
+    0.2000    0.0000    0.0000
+    0.3000    0.0000    0.0000
+    0.4000    0.0000    0.0000
+    0.5000    0.0000    0.0000
+    0.6000    0.0000    0.0000
+    0.8000    0.0000    0.0000
+    1.0000    0.0000    0.0000
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Attenuations', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m', 921)" style="font-weight:bold">Attenuations</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/Attenuations.m',921,0)">line 921</a>)] 
+Main_MC
+
+perf =
+
+    0.3510
+
+
+perf =
+
+    0.3329
+
+
+perf =
+
+    0.3214
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3525
+
+
+perf =
+
+    0.3346
+
+
+perf =
+
+    0.3229
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3544
+
+
+perf =
+
+    0.3349
+
+
+perf =
+
+    0.3232
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3530
+
+
+perf =
+
+    0.3365
+
+
+perf =
+
+    0.3243
+
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3550
+
+
+perf =
+
+    0.3381
+
+
+perf =
+
+    0.3247
+
+
+global_n =
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+
+perf =
+
+    0.3510
+
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',72,1)">72  </a>end
+maskedImage = im;
+    maskedImage(BW) = 0;
+    figure, imagesc(maskedImage)
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+varargin
+vargin
+{Undefined function or variable 'vargin'.
+} 
+varargin
+Main_MC
+
+ans =
+
+     4
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+setupSolarized('light');
+setupSolarized('dark');
+setupSolarized('light');
+Main_MC
+if system_dependent('IsDebugMode')==1, dbquit; end
+createContoursSD
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('createContoursSD', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m', 11)" style="font-weight:bold">createContoursSD</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',11,0)">line 11</a>)
+[rr, cc] = meshgrid(1:size(im,2),1:size(im,1));
+} 
+Main_MC
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 152)" style="font-weight:bold">bootci</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',152,0)">line 152</a>)
+BOOTFUN returns a NaN or Inf.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('createContoursSD', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m', 63)" style="font-weight:bold">createContoursSD</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',63,0)">line 63</a>)
+    STD(pp,:) = bootci(1000,@std2,temp);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m', 127)" style="font-weight:bold">Analysis_DES_3_1</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',127,0)">line 127</a>)
+    [ROI_w, SD_w] = createContoursSD(im_hard, 201,
+    198);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 130)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',130,0)">line 130</a>)
+        [CNR, MSE] = Analysis_DES_3_1(cal, val,
+        cell2mat(evec(jj)), layers2(ind_layers(jj),
+        jj));
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',127,0)
+Main_MC
+{Undefined function or variable 'target_SN'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m', 145)" style="font-weight:bold">Analysis_DES_3_1</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',145,0)">line 145</a>)
+if verbose > -1 && target_SN == 100
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 130)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',130,0)">line 130</a>)
+        [CNR, MSE] = Analysis_DES_3_1(cal, val,
+        cell2mat(evec(jj)), layers2(ind_layers(jj),
+        jj));
+} 
+Main_MC
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 140)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)">line
+140</a>)
+} 
+close all
+Main_MC
+{Error: <a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',145,29)">File: Analysis_DES_3_1.m Line: 145 Column: 29
+</a>Incorrect use of '=' operator. To assign a value to
+a variable, use '='. To compare values for equality,
+use '=='.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line 134</a>)
+        [CNR, MSE] = Analysis_DES_3_1(cal, val,
+        cell2mat(evec(jj)), layers2(ind_layers(jj),
+        jj));
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',145,29)
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',145,29)
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnMex.trainPerf', '/home/jericho/Downloads/toolbox/nnet/nnet/nnderivative/+nnMex/trainPerf.m', 6)" style="font-weight:bold">nnMex.trainPerf</a>
+(<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/nnderivative/+nnMex/trainPerf.m',6,0)">line 6</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnCalcLib/trainPerf', '/home/jericho/Downloads/toolbox/nnet/nnet/nnderivative/nnCalcLib.m', 146)" style="font-weight:bold">nnCalcLib/trainPerf</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/nnderivative/nnCalcLib.m',146,0)">line 146</a>)
+            [trainPerf,trainN] =
+            lib.calcMode.trainPerf(calcNet,lib.calcData,lib.calcHints);
+            
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trainlm>trainingIteration', '/home/jericho/Downloads/toolbox/nnet/nnet/nntrain/trainlm.m', 268)" style="font-weight:bold">trainlm>trainingIteration</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/nntrain/trainlm.m',268,0)">line 268</a>)
+    perf2 = calcLib.trainPerf(calcNet2);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.train.trainNetwork>trainNetworkInMainThread', '/home/jericho/Downloads/toolbox/nnet/nnet/+nnet/+train/trainNetwork.m', 50)" style="font-weight:bold">nnet.train.trainNetwork>trainNetworkInMainThread</a>
+(<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/+nnet/+train/trainNetwork.m',50,0)">line 50</a>)
+    [worker,calcNet] =
+    localFcns.trainingIteration(worker,calcLib,calcNet);
+    
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.train.trainNetwork', '/home/jericho/Downloads/toolbox/nnet/nnet/+nnet/+train/trainNetwork.m', 16)" style="font-weight:bold">nnet.train.trainNetwork</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/+nnet/+train/trainNetwork.m',16,0)">line 16</a>)
+    [archNet,tr] =
+    trainNetworkInMainThread(archNet,rawData,calcLib,calcNet,tr,feedback,localFcns);
+    
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trainlm>train_network', '/home/jericho/Downloads/toolbox/nnet/nnet/nntrain/trainlm.m', 156)" style="font-weight:bold">trainlm>train_network</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/nntrain/trainlm.m',156,0)">line 156</a>)
+[archNet,tr] =
+nnet.train.trainNetwork(archNet,rawData,calcLib,calcNet,tr,localfunctions);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trainlm', '/home/jericho/Downloads/toolbox/nnet/nnet/nntrain/trainlm.m', 55)" style="font-weight:bold">trainlm</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/nntrain/trainlm.m',55,0)">line 55</a>)
+            [out1,out2] =
+            train_network(varargin{2:end});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('network/train', '/home/jericho/Downloads/toolbox/nnet/nnet/@network/train.m', 369)" style="font-weight:bold">network/train</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/nnet/nnet/@network/train.m',369,0)">line 369</a>)
+    [net,tr] =
+    feval(trainFcn,'apply',net,data,calcLib,calcNet,tr);
+    
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m', 113)" style="font-weight:bold">Analysis_DES_3_1</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',113,0)">line 113</a>)
+    [net, ~] = train(net, x_train, t); %JO
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line 134</a>)
+        [CNR, MSE] = Analysis_DES_3_1(cal, val,
+        cell2mat(evec(jj)), layers2(ind_layers(jj),
+        jj));
+} 
+Main_MC
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+{Index in position 1 exceeds array bounds (must not
+exceed 2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 140)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)">line 140</a>)
+        CNR_1 = pchip(Diff(1:8), CNR(1:8, 1)',
+        diff_vec);
+} 
+Main_MC
+{Index in position 1 exceeds array bounds (must not
+exceed 2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 140)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)">line 140</a>)
+        CNR_1 = pchip(Diff(1:8), CNR(1:8, 1)',
+        diff_vec);
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)
+Main_MC
+{Index in position 1 exceeds array bounds (must not
+exceed 2).
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 140)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)">line 140</a>)
+        CNR_1 = pchip(Diff, CNR(1:8, 1)', diff_vec);
+} 
+Main_MC
+if system_dependent('IsDebugMode')==1, dbcont; end
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',142,1)">142 </a>if verbose > -1 && global_n == 2
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+{Index in position 1 exceeds array bounds.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 140)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)">line 140</a>)
+        CNR_1 = pchip(Diff, CNR(1:8, 1)', diff_vec);
+} 
+Main_MC
+{Index in position 1 exceeds array bounds.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 140)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',140,0)">line 140</a>)
+        CNR_1 = pchip(Diff, CNR(1:8, 1)', diff_vec);
+} 
+CNR(1:8, 1)'
+{Index in position 1 exceeds array bounds.
+} 
+CNR
+
+CNR(:,:,1) =
+
+  Columns 1 through 5
+
+  -13.9309  -11.5948  -10.3460   -8.4608   -7.0277
+
+  Columns 6 through 8
+
+   -5.8515   -5.1376   -5.9738
+
+
+CNR(:,:,2) =
+
+  Columns 1 through 5
+
+   -8.7336   -8.3177   -8.2119   -6.5302   -5.8885
+
+  Columns 6 through 8
+
+   -5.0563   -4.5352   -4.9291
+
+Main_MC
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',90,1)">90  </a>Xnew = reshape(yy, numel(yy(:, :, 1)), length(yy(1, 1, :)));
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',178,1)">178 </a>    alpha(.75)
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 178)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',178,0)">line 178</a>)] 
+if system_dependent('IsDebugMode')==1, dbquit; end
+xlim(auto)
+{Undefined function or variable 'auto'.
+} 
+xlim('auto')
+ylim('auto')
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+
+perf =
+
+    0.3510
+
+
+perf =
+
+    0.3329
+
+
+perf =
+
+    0.3214
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3525
+
+
+perf =
+
+    0.3346
+
+
+perf =
+
+    0.3229
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3544
+
+
+perf =
+
+    0.3349
+
+
+perf =
+
+    0.3232
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3530
+
+
+perf =
+
+    0.3365
+
+
+perf =
+
+    0.3243
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+perf =
+
+    0.3550
+
+
+perf =
+
+    0.3381
+
+
+perf =
+
+    0.3247
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit all; end
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Caught exception while computing adjustment
+Caught exception while computing adjustment
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line
+134</a>)
+} 
+{Operation terminated by user
+} 
+Main_MC
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3510
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1')" style="font-weight:bold">Analysis_DES_3_1</a>
+Too many output arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line 134</a>)
+        [CNR, MSE, noise] = Analysis_DES_3_1(cal,
+        val, cell2mat(evec(jj)),
+        layers2(ind_layers(jj)));
+} 
+Main_MC
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1')" style="font-weight:bold">Analysis_DES_3_1</a>
+Too many output arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line 134</a>)
+        [CNR, MSE, noise] = Analysis_DES_3_1(cal,
+        val, cell2mat(evec(jj)),
+        layers2(ind_layers(jj)));
+} 
+matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1')
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('var')" style="font-weight:bold">var</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('std', '/home/jericho/Downloads/toolbox/matlab/datafun/std.m', 51)" style="font-weight:bold">std</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/datafun/std.m',51,0)">line 51</a>)
+y = sqrt(var(varargin{:}));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('std2', '/home/jericho/Downloads/toolbox/images/images/std2.m', 57)" style="font-weight:bold">std2</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/images/images/std2.m',57,0)">line 57</a>)
+    s = std(a(:));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jackknife/loopBodyOneArg', '/home/jericho/Downloads/toolbox/stats/stats/jackknife.m', 185)" style="font-weight:bold">jackknife/loopBodyOneArg</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/jackknife.m',185,0)">line 185</a>)
+         tmp = feval(jackfun,X1(onesample,:));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('internal.stats.parallel.smartForSliceout', '/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m', 174)" style="font-weight:bold">internal.stats.parallel.smartForSliceout</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m',174,0)">line
+174</a>)
+            [slice{:}] = loopbody(iter, S);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jackknife', '/home/jericho/Downloads/toolbox/stats/stats/jackknife.m', 169)" style="font-weight:bold">jackknife</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/jackknife.m',169,0)">line 169</a>)
+   jackstat =
+   internal.stats.parallel.smartForSliceout(n,@loopBodyOneArg,useParallel);
+   
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci>bootbca', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 262)" style="font-weight:bold">bootci>bootbca</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',262,0)">line 262</a>)
+    jstat =
+    jackknife(bootfun,varargin{:},'Options',bootstrpOptions);
+    
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 171)" style="font-weight:bold">bootci</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',171,0)">line 171</a>)
+        [ci,bootstat] =
+        bootbca(obsstat,nboot,fun,alpha,weights,bootstrpOptions,data{:});
+        
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('createContoursSD', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m', 63)" style="font-weight:bold">createContoursSD</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',63,0)">line 63</a>)
+    STD(pp,:) = bootci(1000,@std2,temp);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m', 122)" style="font-weight:bold">Analysis_DES_3_1</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',122,0)">line 122</a>)
+    [ROI, SD] = createContoursSD(im_hard, x2, y2);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line 134</a>)
+        [CNR, MSE, noise] = Analysis_DES_3_1(cal,
+        val, cell2mat(evec(jj)),
+        layers2(ind_layers(jj)));
+} 
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('std2', '/home/jericho/Downloads/toolbox/images/images/std2.m', 24)" style="font-weight:bold">std2</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/images/images/std2.m',24,0)">line 24</a>)
+
+
+In
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrp>@(onesample)feval(bootfun,X1(onesample,:))', '/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m', 309)" style="font-weight:bold">bootstrp>@(onesample)feval(bootfun,X1(onesample,:))</a>
+(<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m',309,0)">line 309</a>)
+    anonfun = @(onesample)
+    feval(bootfun,X1(onesample,:));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrp/loopBody', '/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m', 209)" style="font-weight:bold">bootstrp/loopBody</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m',209,0)">line 209</a>)
+        tmp = booteval(onesample);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('internal.stats.parallel.smartForSliceout', '/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m', 174)" style="font-weight:bold">internal.stats.parallel.smartForSliceout</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m',174,0)">line
+174</a>)
+            [slice{:}] = loopbody(iter, S);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrp', '/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m', 197)" style="font-weight:bold">bootstrp</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m',197,0)">line 197</a>)
+        bootstat =
+        internal.stats.parallel.smartForSliceout(
+        ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci>bootbca', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 255)" style="font-weight:bold">bootci>bootbca</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',255,0)">line 255</a>)
+bstat =
+bootstrp(nboot,bootfun,varargin{:},'weights',weights,'Options',bootstrpOptions);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 171)" style="font-weight:bold">bootci</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',171,0)">line 171</a>)
+        [ci,bootstat] =
+        bootbca(obsstat,nboot,fun,alpha,weights,bootstrpOptions,data{:});
+        
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('createContoursSD', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m', 63)" style="font-weight:bold">createContoursSD</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',63,0)">line 63</a>)
+    STD(pp,:) = bootci(1000,@std2,temp);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m', 123)" style="font-weight:bold">Analysis_DES_3_1</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',123,0)">line 123</a>)
+    [ROI_w, SD_w] = createContoursSD(im_hard, 48,
+    133);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 134)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',134,0)">line 134</a>)
+        [CNR, MSE, noise] = Analysis_DES_3_1(cal,
+        val, cell2mat(evec(jj)),
+        layers2(ind_layers(jj)));
+} 
+Main_MC
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+Main_MC
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3510
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3329
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3214
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+{Undefined function or variable 'quality'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_linear', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m', 64)" style="font-weight:bold">Analysis_DES_linear</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',64,0)">line 64</a>)
+if length(yy(1, 1, :)) ~= 1quality
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 56)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',56,0)">line 56</a>)
+        [imcart_2, MSE, noise] =
+        Analysis_DES_linear(cal, val,
+        cell2mat(evec(jj)));
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',64,0)
+Main_MC
+
+ans =
+
+     1
+
+{Undefined function or variable 'quality'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_linear', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m', 64)" style="font-weight:bold">Analysis_DES_linear</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',64,0)">line 64</a>)
+if length(yy(1, 1, :)) ~= quality
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 56)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',56,0)">line 56</a>)
+        [imcart_2, MSE, noise] =
+        Analysis_DES_linear(cal, val,
+        cell2mat(evec(jj)));
+} 
+opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_linear.m',64,0)
+Main_MC
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3510
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3329
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3214
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3525
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3346
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3229
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3544
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3349
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3232
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3530
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3365
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3243
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3550
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3381
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3247
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 113)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',113,0)">line 113</a>)] 
+
+global_n =
+
+     0
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+if system_dependent('IsDebugMode')==1, dbcont; end
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 173)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',173,0)">line 173</a>)] 
+close all
+Main_MC
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+MSE =
+
+    0.0407
+
+
+MSE =
+
+    0.0279
+
+
+MSE =
+
+    0.0449
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+
+MSE =
+
+    0.0403
+
+
+MSE =
+
+    0.0280
+
+
+MSE =
+
+    0.0212
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+
+MSE =
+
+    0.0407
+
+
+MSE =
+
+    0.0285
+
+
+MSE =
+
+    0.0213
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+
+MSE =
+
+    0.0404
+
+
+MSE =
+
+    0.0276
+
+
+MSE =
+
+    0.0218
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+Main_MC
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3510
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3329
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3214
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 114)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',114,0)">line 114</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3525
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3346
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3229
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 114)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',114,0)">line 114</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3544
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3349
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3232
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 114)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',114,0)">line 114</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3530
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3365
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3243
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 114)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',114,0)">line 114</a>)] 
+
+global_n =
+
+     0
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3550
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3381
+
+
+ans =
+
+     1
+
+
+perf =
+
+    0.3247
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 114)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',114,0)">line 114</a>)] 
+
+global_n =
+
+     0
+
+
+MSE =
+
+    0.0639
+
+
+MSE =
+
+    0.0280
+
+
+MSE =
+
+    0.0222
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+
+MSE =
+
+    0.0405
+
+
+MSE =
+
+    0.0284
+
+
+MSE =
+
+    0.0213
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+
+MSE =
+
+    0.0397
+
+
+MSE =
+
+    0.0284
+
+
+MSE =
+
+    0.0215
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>set_children_and_strings', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 646)" style="font-weight:bold">legend>set_children_and_strings</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',646,0)">line 646</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 316)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',316,0)">line 316</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', '/home/jericho/Downloads/toolbox/matlab/scribe/legend.p', 259)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/matlab/scribe/legend.p',259,0)">line 259</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Main_MC', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m', 176)" style="font-weight:bold">Main_MC</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Main_MC.m',176,0)">line 176</a>)] 
+{Operation terminated by user during
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('internal.stats.parallel.smartForSliceout', '/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m', 174)" style="font-weight:bold">internal.stats.parallel.smartForSliceout</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/+internal/+stats/+parallel/smartForSliceout.m',174,0)">line 174</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrp', '/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m', 197)" style="font-weight:bold">bootstrp</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootstrp.m',197,0)">line 197</a>)
+        bootstat =
+        internal.stats.parallel.smartForSliceout(
+        ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci>bootbca', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 255)" style="font-weight:bold">bootci>bootbca</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',255,0)">line 255</a>)
+bstat =
+bootstrp(nboot,bootfun,varargin{:},'weights',weights,'Options',bootstrpOptions);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootci', '/home/jericho/Downloads/toolbox/stats/stats/bootci.m', 171)" style="font-weight:bold">bootci</a> (<a href="matlab: opentoline('/home/jericho/Downloads/toolbox/stats/stats/bootci.m',171,0)">line 171</a>)
+        [ci,bootstat] =
+        bootbca(obsstat,nboot,fun,alpha,weights,bootstrpOptions,data{:});
+        
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('createContoursSD', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m', 63)" style="font-weight:bold">createContoursSD</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/createContoursSD.m',63,0)">line 63</a>)
+    STD(pp,:) = bootci(1000,@std2,temp);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Analysis_DES_3_1', '/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m', 121)" style="font-weight:bold">Analysis_DES_3_1</a> (<a href="matlab: opentoline('/home/jericho/Downloads/bin/pcd_planar_imaging/DES_radiography/DES_MC/Analysis_DES_3_1.m',121,0)">line 121</a>)
+    [ROI, SD] = createContoursSD(im_hard, x2, y2);
+
+In <a href="matlab:matlab

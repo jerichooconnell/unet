@@ -1,0 +1,31 @@
+s:Gr/ViewA/Type                             = "OpenGL"
+i:Gr/ViewA/WindowSizeX                      = 900
+i:Gr/ViewA/WindowSizeY                      = 900
+d:Gr/ViewA/Theta                            = 40 deg #40
+d:Gr/ViewA/Phi                              = 90 deg #20
+s:Gr/ViewA/Projection                       = "Orthogonal"
+d:Gr/ViewA/PerspectiveAngle                 = 50 deg
+u:Gr/ViewA/Zoom                             = 1.0
+b:Gr/ViewA/HiddenLineRemovalForTrajectories = "True"
+u:Gr/ViewA/TransY							= 0.0
+u:Gr/ViewA/TransZ							= 0.0 
+u:Gr/ViewA/TransX							= 0.0 
+s:Gr/ViewA/RefreshEvery 					= "History"
+b:Gr/ViewA/IncludeAxes = "True"
+d:Gr/ViewA/AxesSize = 5 cm # size of axes
+
+s:Gr/ViewA/AxesComponent = "Phantom"
+
+s:Gr/View/Type                             = "OpenGL"
+i:Gr/View/WindowSizeX                      = 900
+i:Gr/View/WindowSizeY                      = 900
+s:Gr/View/Projection                       = "Orthogonal"
+u:Gr/View/Zoom                             = 1.0
+b:Gr/View/IncludeAxes = "True"
+d:Gr/View/AxesSize = 5 cm # size of axes
+u:Gr/View/TransX   = 0.
+u:Gr/View/TransY   = 1.
+u:Gr/View/TransZ   = 0.
+d:Gr/View/RotX     = -90. deg
+d:Gr/View/RotY     = -90. deg
+d:Gr/View/RotZ     = -90. deg

@@ -1,0 +1,103 @@
+# Demo code for the CdTe crystal. 
+#@todo: find a way to group the detector bodies together and duplicate/rotate
+# => will likely define the crystal in a separate geometry file and include it here
+# 	put crystal low and then rotate it around
+#   translate crystal by 1.25 cm (radius of phantom), and 1 cm away, and 1 mm thickness of CdTe
+#   so that the CdTe surface is 1 cm away
+sv:Ph/MyList/LayeredMassGeometryWorlds = 1 "Vials"
+
+s:Ge/Detector1/Type="Group"
+s:Ge/Detector1/Parent = "World"
+d:Ge/Detector1/TransX=0. cm
+d:Ge/Detector1/TransY=0. cm
+d:Ge/Detector1/TransZ=0. cm
+d:Ge/Detector1/RotX=0. deg
+d:Ge/Detector1/RotY=60. deg
+# d:Ge/Detector1/RotZ=30. deg # positive angle means it rotates clockwise
+
+# Geometry for CdTe crystal
+s:Ge/CdTeCrystal1/Type     = "TsBox"
+s:Ge/CdTeCrystal1/Parent   = "Detector1"
+s:Ge/CdTeCrystal1/Material = "CdTe"
+d:Ge/CdTeCrystal1/HLX      = 16.66 mm 
+d:Ge/CdTeCrystal1/HLY      = 2 mm 
+d:Ge/CdTeCrystal1/HLZ      = 18.75 mm
+d:Ge/CdTeCrystal1/TransX   = 0. cm
+d:Ge/CdTeCrystal1/TransY   = -6. cm
+d:Ge/CdTeCrystal1/TransZ   = 0. cm
+d:Ge/CdTeCrystal1/RotX     = 0. deg
+d:Ge/CdTeCrystal1/RotY     = 0. deg
+d:Ge/CdTeCrystal1/RotZ     = 0. deg
+s:Ge/CdTeCrystal1/Color    = "magenta"
+
+# s:Sc/PhantomDose/Quantity = "SurfaceTrackCount"
+# s:Sc/PhantomDose/Surface = "CdTeCrystal1/YPlusSurface"
+# i:Sc/PhantomDose/XBins = 100
+# i:Sc/PhantomDose/ZBins = 100
+# i:Sc/Phantomdose/EBins = 100 # defaults to 1, that is, un-binned
+# d:Sc/PhantomDose/EBinMin = .016 MeV # defaults to zero
+# d:Sc/PhantomDose/EBinMax = .120 MeV # must be specified if EBins is greater than 1 
+# s:Sc/PhantomDose/OutputType = "csv"
+# s:Sc/PhantomDose/OutputFile = "phantomDose_test120kVp"
+# s:Sc/PhantomDose/IfOutputFileAlreadyExists = "Increment"
+
+
+# #Geometry for the top contact of the crystal
+# s:Ge/TopContact1/Type     = "TsBox"
+# s:Ge/TopContact1/Parent   = "Detector1"
+# s:Ge/TopContact1/Material = "Platinum"
+# d:Ge/TopContact1/HLX      = 18 mm 
+# d:Ge/TopContact1/HLY      = 0.00001 cm 
+# d:Ge/TopContact1/HLZ      = 5 cm
+# d:Ge/TopContact1/TransX   = 0. cm
+# d:Ge/TopContact1/TransY   = -2.24999 cm # 0.05001 -  5.23802
+# d:Ge/TopContact1/TransZ   = 0. cm
+# d:Ge/TopContact1/RotX     = 0. deg
+# d:Ge/TopContact1/RotY     = 0. deg
+# d:Ge/TopContact1/RotZ     = 0. deg
+# s:Ge/TopContact1/Color    = "white"
+
+#Geometry for the bottom contact of the crystal
+# s:Ge/BottomContact1/Type     = "TsBox"
+# s:Ge/BottomContact1/Parent   = "Detector1"
+# s:Ge/BottomContact1/Material = "Indium"
+# d:Ge/BottomContact1/HLX      = 18 mm 
+# d:Ge/BottomContact1/HLY      = 0.00005 cm 
+# d:Ge/BottomContact1/HLZ      = 5 cm
+# d:Ge/BottomContact1/TransX   = 0. cm
+# d:Ge/BottomContact1/TransY   = -2.35005 cm # -0.05005 - 5.23802
+# d:Ge/BottomContact1/TransZ   = 0. cm
+# d:Ge/BottomContact1/RotX     = 0. deg
+# d:Ge/BottomContact1/RotY     = 0. deg
+# d:Ge/BottomContact1/RotZ     = 0. deg
+# s:Ge/BottomContact1/Color    = "blue"
+
+
+# Detector materials
+sv:Ma/CdTe/Components = 3 "Cadmium" "Tellurium" "Zinc"
+uv:Ma/CdTe/Fractions = 3 0.46 0.5 0.04
+d:Ma/CdTe/Density = 6.2 g/cm3 #from Wikipedia
+s:Ma/CdTe/DefaultColor = "grey"
+
+sv:Ma/Beryllium/Components = 1 "Beryllium"
+uv:Ma/Beryllium/Fractions = 1 1.0
+d:Ma/Beryllium/Density = 1.85 g/cm3
+s:Ma/Beryllium/DefaultColor = "blue"
+
+sv:Ma/Platinum/Components = 1 "Platinum"
+uv:Ma/Platinum/Fractions = 1 1.0
+d:Ma/Platinum/Density = 21.45 g/cm3
+s:Ma/Platinum/DefaultColor = "white"
+
+sv:Ma/Indium/Components = 1 "Indium"
+uv:Ma/Indium/Fractions = 1 1.0
+d:Ma/Indium/Density = 7.31 g/cm3
+s:Ma/Indium/DefaultColor = "blue"
+
+#b:Ge/QuitIfOverlapDetected = "False"
+
+s:Ge/CdTeCrystal1/DrawingStyle = "Solid"
+s:Ge/BeWindow1/DrawingStyle = "Solid"
+s:Ge/DetColl1/DrawingStyle = "Solid"
+s:Ge/DetCollHole1/DrawingStyle = "Solid"
+
