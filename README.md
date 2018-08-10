@@ -1,6 +1,19 @@
+# This code contains four different sub modules, all with their own lovely dependancies!
+
+One needs only the dependancies for the indevidual modules to run them.
+
+1) unet -- tensorflow, keras
+2) matlab\_analysis -- matlab
+3) image\_generator -- matlab
+4) MC\_simulation -- TOPAS
+
+---
+
 # Implementation of deep learning framework -- Unet, using Keras
 
 The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
+
+This implimentation is a combination of zhixuhao's unet implimentation with a generator borrowed heavily from jakeret's tf\_unet implementation. 
 
 ---
 
@@ -8,9 +21,8 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ### Data
 
-The original dataset is from [isbi challenge](http://brainiac2.mit.edu/isbi_challenge/), and I've downloaded it and done the pre-processing.
+The data is randomly generated CT images using a 4 energy PCD 
 
-You can find it in folder data/membrane.
 
 ### Data augmentation
 
