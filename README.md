@@ -4,7 +4,8 @@ A method for automated soft tissue differentiation is presented using planar kV 
 
 Code for the Monte Carlo simulation, matlab analysis, image generation, and unet CNN can be found here!
 
-
+Check out the binder!
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jerichooconnell/unet/master?filepath=unet%2FtrainUnet.ipynb)
 
 ## Getting Started
 
