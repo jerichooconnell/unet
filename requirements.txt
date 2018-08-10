@@ -4,3 +4,4 @@ Pillow
 tensorflow>=1.0.0
 matplotlib
 keras==2.1.6
+scikit-image
