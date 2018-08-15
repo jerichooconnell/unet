@@ -1,4 +1,4 @@
-# Optimal Soft Tissue Differentiation for Planar kV X-ray Imaging Using Photon Counting Detectors, and a Convolutional Neural Network
+# Optimal Planar X-ray Imaging Soft Tissue Segmentation Using Photon Counting Detectors
 
 A method for automated soft tissue differentiation is presented using planar kV imaging, a photon counting detector (PCD), and a convolutional neural network. Planar kV images were simulated with pencil-beam Monte Carlo and cone-beam analytical simulations. Simulations were preformed using 1 to 5 PCD energy bins with equal fluence and varying signal to noise ratios (SNR) between 10 to 250 measured in 4cm water. Algorithms using nonlinear as well as linear regression were used to predict the amount of cartilage for every pixel of the images. These algorithms were evaluated based on the error (MSE) between their prediction and the ground truth. The best algorithm was used to decompose randomly generated cartilage/soft tissue images with an SNR of 100. These images trained a U-Net convolutional neural network to segment the cartilage in the image. 
 
