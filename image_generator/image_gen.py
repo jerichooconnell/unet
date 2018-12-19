@@ -26,7 +26,7 @@ import math
 import pickle
 import os
 
-import matlab.engine
+#import matlab.engine
 from scipy.io import loadmat
 
 sigma = 10
@@ -41,7 +41,7 @@ def generate_voronoi_diagram(width, height, cnt=50):
 
     num_cells = cnt
 
-    nbins = 4
+    nbins = 1 #4
     image = np.zeros((width, height, nbins))
     labels = np.zeros([width, height], dtype=np.bool)
 
@@ -81,7 +81,7 @@ def generate_voronoi_diagram(width, height, cnt=50):
         #         nr[:, i] = cal_values[1:5, rr]
         #         label.append(1)
         #     else:
-        nr[:, i] = cal_values[1:5, inds_0[pp]]
+        nr[:, i] = cal_values[1, inds_0[pp]]
         label.append(0)
 
     for y in range(imgy):
@@ -96,9 +96,8 @@ def generate_voronoi_diagram(width, height, cnt=50):
 
             # Generating some poisson noise\
             #for kk in range(nbins):
-            image[x, y, :] = np.nan_to_num(np.log(
-                (np.exp(nr[:, j])) +
-                np.random.normal(0, np.sqrt(np.exp(nr[:, j]) * 2500)) / 2500))
+            image[x, y] =  nr[:, j] + np.random.normal(
+                0, abs(nr[:, j]))
 
     labels[x, y] = label[j]
 
@@ -110,33 +109,34 @@ def generate_voronoi_diagram(width, height, cnt=50):
     #image = np.ones((nx, ny, 1))
     label = np.ones((width, height))
     mask = np.zeros([width, height], dtype=np.bool)
-    nr2[:, 0] = cal_values[1:5, inds_1[0]]
+    
+    #nr2[:, 0] = cal_values[1:5, inds_1[0]]
+    
     for i in range(1,int(num_cells / 2)):
         a = np.random.randint(border, width - border)
         b = np.random.randint(border, height - border)
         r = np.random.randint(r_min, r_max)
         rr = random.randint(0, len(inds_1) - 1)
-        nr2[:, i] = cal_values[1:5, inds_1[rr]]
+        #nr2[:, i] = cal_values[1, inds_1[rr]]
 
         y, x = np.ogrid[-a:width - a, -b:height - b]
         m = x * x + y * y <= r * r
         mask = np.logical_or(mask, m)
 
-        image[m] = np.nan_to_num(
-            np.log((np.exp(nr2[:, i])) + np.random.normal(
-                0, np.sqrt(np.exp(nr2[:, i]) * 2500), size=image.shape)[m] / 2500))
+        image[m] =  cal_values[1, inds_1[rr]] + np.random.normal(
+                0, abs(cal_values[1, inds_1[rr]]) , size=image.shape)[m]
 
     labels[mask] = 1
 
-    matlab_reshape = np.reshape(image,[image.size],order='F').copy()
-    matlab_reshape = list(np.squeeze(matlab_reshape)).copy()
-    matlab_reshape = matlab.double(matlab_reshape)
+    #matlab_reshape = np.reshape(image,[image.size],order='F').copy()
+    #matlab_reshape = list(np.squeeze(matlab_reshape)).copy()
+    #matlab_reshape = matlab.double(matlab_reshape)
 
-    eng = matlab.engine.start_matlab()
-    ys = eng.net_val(matlab_reshape)
+    #eng = matlab.engine.start_matlab()
+    #ys = eng.net_val(matlab_reshape)
     
-    image = np.zeros((width,height,1))
-    image[:,:,0] = np.reshape(ys,[width,height],order='F').copy()
+    #image = np.zeros((width,height,1))
+    #image[:,:,0] = np.reshape(ys,[width,height],order='F').copy()
     
     image -= np.amin(image)
     image /= np.amax(image)
