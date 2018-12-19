@@ -48,7 +48,7 @@ def generate_voronoi_diagram(width, height, cnt=50):
     imgx, imgy = width, height
     nx = []  # hold the x value
     ny = []  # holds the y value
-    nr = np.zeros([nbins, int(cnt / 2) - 20])  # low energy image
+    nr = np.zeros([nbins, int(cnt / 2)])  # low energy image
     nr2 = np.zeros([nbins, int(cnt / 2)])  # high energy image
     label = []  # labels whether or not the cell has cartilage
 
@@ -69,7 +69,7 @@ def generate_voronoi_diagram(width, height, cnt=50):
     inds_0 = np.where(cal_values[0, :] == 0)[0]
     inds_1 = np.where(cal_values[0, :] != 0)[0]
 
-    for i in range(int(num_cells / 2 - 20)):
+    for i in range(int(num_cells / 2 )):
 
         # choosing random place for the cell
         nx.append(random.randrange(imgx))
@@ -97,12 +97,12 @@ def generate_voronoi_diagram(width, height, cnt=50):
             # Generating some poisson noise\
             #for kk in range(nbins):
             image[x, y] =  nr[:, j] + np.random.normal(
-                0, abs(nr[:, j]))
+                0, 0.0002)
 
     labels[x, y] = label[j]
 
     r_min = 3
-    r_max = 50
+    r_max = 12
     border = 10
     sigma = 10
 
@@ -124,7 +124,7 @@ def generate_voronoi_diagram(width, height, cnt=50):
         mask = np.logical_or(mask, m)
 
         image[m] =  cal_values[1, inds_1[rr]] + np.random.normal(
-                0, abs(cal_values[1, inds_1[rr]]) , size=image.shape)[m]
+                0, 0.0003 , size=image.shape)[m]
 
     labels[mask] = 1
 
