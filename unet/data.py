@@ -6,6 +6,7 @@ import glob
 import skimage.io as io
 import skimage.transform as trans
 
+
 Sky = [128,128,128]
 Building = [128,0,0]
 Pole = [192,192,128]
